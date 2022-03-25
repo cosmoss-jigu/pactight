@@ -1,2 +1,2 @@
-# pactight
+# PACTight
 PACTight source code
