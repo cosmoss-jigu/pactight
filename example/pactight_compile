@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../llvm-project/build/bin/clang -fsanitize=dvipac -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fno-ptrauth-intrinsics -fno-ptrauth-returns -fno-ptrauth-calls -fno-ptrauth-indirect-gotos -fno-ptrauth-auth-traps $1.c -o $1 -v

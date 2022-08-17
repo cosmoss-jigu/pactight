@@ -1,0 +1,19 @@
+add_lldb_unittest(LLDBCoreTests
+  CommunicationTest.cpp
+  MangledTest.cpp
+  RichManglingContextTest.cpp
+  StreamCallbackTest.cpp
+  UniqueCStringMapTest.cpp
+
+  LINK_LIBS
+    lldbCore
+    lldbHost
+    lldbSymbol
+    lldbPluginObjectFileELF
+    lldbPluginSymbolFileSymtab
+    lldbUtilityHelpers
+    LLVMTestingSupport
+    lldbPluginPlatformMacOSX
+  LINK_COMPONENTS
+    Support
+  )
