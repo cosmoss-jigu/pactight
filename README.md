@@ -16,7 +16,7 @@ pactight
 
 
 ## Setup notes
-PACTight uses a fork of Apple's LLVM, and thus this will only work on an Apple macOS machine with an ARM processor. This has been tested on an Apple Mac Mini M1.
+PACTight uses a fork of Apple's LLVM (swift-5.3.1-RELEASE), and thus this will only work on an Apple macOS machine with an ARM processor. This has been tested on an Apple Mac Mini M1.
 
 ## How to compile PACTight
 ```bash
