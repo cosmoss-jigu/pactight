@@ -2,9 +2,9 @@
 
 This repository contains the source code for the USENIX Security'22 paper:
 
-*"Tightly Seal Your Sensitive Pointers with PACTight
-Mohannad Ismail, Andrew Quach, Christopher Jelesnianski, Yeongjin Jang, Changwoo Min
-In Proceedings of the 31st USENIX Security Symposium (USENIX Security 2022)*
+*Tightly Seal Your Sensitive Pointers with PACTight*\
+*Mohannad Ismail, Andrew Quach, Christopher Jelesnianski, Yeongjin Jang, Changwoo Min*\
+*In Proceedings of the 31st USENIX Security Symposium (USENIX Security 2022)*
 
 ## Directory structure
 ```{.sh}
